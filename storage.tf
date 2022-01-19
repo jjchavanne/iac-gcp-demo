@@ -1,7 +1,7 @@
 resource "google_storage_bucket" "my-bucket" {
-  name          = "${var.project_id}-bucket"
-  force_destroy = true
-  location      = "US"
+  name                        = "${var.project_id}-bucket"
+  force_destroy               = true
+  location                    = "US"
   uniform_bucket_level_access = true
   labels = {
     git_commit           = "7d86446d43661f8cf2ea1088c4e0a5d4b7b69781"
