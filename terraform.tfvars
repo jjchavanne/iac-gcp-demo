@@ -1,5 +1,5 @@
-project_id  = "pcs-dev-sandbox"
+project_id  = "dev-test-254718"
 region      = "us-east1"
 zone        = "us-east1-c"
-vpc_name    = "pcs-dev-sandbox"
-#subnet_name = "pcs-dev-sandbox"
+vpc_name    = "default"
+#subnet_name = "default"
