@@ -1,0 +1,5 @@
+project_id  = "pcs-dev-sandbox"
+region      = "us-east1"
+zone        = "us-east1-c"
+vpc_name    = "pcs-dev-sandbox"
+subnet_name = "pcs-dev-sandbox"
