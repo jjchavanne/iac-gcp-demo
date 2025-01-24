@@ -12,5 +12,6 @@ resource "google_storage_bucket" "my-bucket" {
     git_org              = "jjchavanne"
     git_repo             = "iac-gcp-demo"
     yor_trace            = "0ad586b7-3aaf-4dd8-9b77-2313a4f717e9"
+    yor_name             = "my-bucket"
   }
 }

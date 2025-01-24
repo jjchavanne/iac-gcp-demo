@@ -26,5 +26,6 @@ resource "google_compute_instance" "default" {
     git_org              = "jjchavanne"
     git_repo             = "iac-gcp-demo"
     yor_trace            = "b2c7c671-5eed-4c41-a0ea-bfd7f42fcda6"
+    yor_name             = "default"
   }
 }
